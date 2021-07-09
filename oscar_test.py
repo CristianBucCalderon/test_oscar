@@ -3,9 +3,9 @@ import argparse
 import pickle
 
 CLI = argparse.ArgumentParser()
-CLI.add_argument("--machine", type = str, default = 'x7')
-CLI.add_argument("--method", type = str, default = 'ddm')
-CLI.add_argument("--nburnin", type = int, default = 0)
+CLI.add_argument("--parameter1", type = int, default = 0)
+CLI.add_argument("--parameter2", type = int, default = 0)
+CLI.add_argument("--parameter3", type = int, default = 0)
 
 args = CLI.parse_args()
 print(args)
